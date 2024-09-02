@@ -1,6 +1,6 @@
 package br.com.biblioteca.acervo.interfaces;
 
-public interface Conversao {
+public interface  Conversao {
 
     Double converter(Double valor);
 

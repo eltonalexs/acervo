@@ -52,4 +52,12 @@ public class UsuarioController {
         usuarioRepository.deleteById(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/nome")
+    public List<Usuario> buscaUsuarioPorNome(@RequestParam String nome){
+
+
+
+        return null;
+    }
 }
